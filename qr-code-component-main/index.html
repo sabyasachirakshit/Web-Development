@@ -7,6 +7,10 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap" rel="stylesheet">
+
 
   <title>Frontend Mentor | QR code component</title>
 
@@ -23,6 +27,10 @@
 
     body {
       background-color: hsl(212, 45%, 89%);
+      font-family: 'Outfit', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   </style>
 </head>
@@ -32,7 +40,13 @@
   <div class="main-container" style="display: flex; flex-direction: column; gap: 10px; background-color: white; width: 267px;
     height: 416px; border-radius: 10px;">
     <img src="images/image-qr-code.png" alt="qr-code-image" width="230" height="230"
-      style="padding:15px;border-radius: 10px;">
+      style="padding:15px 15px 0px 15px;border-radius: 10px;">
+    <div class="title" style="text-align: center;">
+      <h2 style="margin: 0;"><b>Improve your front-end skills by building projects</b></h2>
+    </div>
+    <div class="text" style="text-align: center;">
+      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    </div>
   </div>
 
   <!-- Improve your front-end skills by building projects
